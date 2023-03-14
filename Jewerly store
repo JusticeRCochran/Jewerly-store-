@@ -1,0 +1,44 @@
+CREATE TABLE Jewerly( 
+   Id INTEGER,  
+   Name TEXT,
+   Manufactuer TEXT,
+  Price INTEGER,
+  Quantity INTEGER); 
+
+
+Insert Into Jewerly Values(1,'14k stud Gold Earrings','Niaho', 88.99, 999);
+Insert Into Jewerly Values(2,'14k stud sliver Earrings','Niaho', 88.99, 999);
+Insert Into Jewerly Values(3,'14k love Gold Braclet','Jewe', 50.99, 799);
+Insert Into Jewerly Values(4,'14k love Sliver Braclet','Jewe', 50.99, 799);
+Insert Into Jewerly Values(5,'Sterling Sliver layering necklace','Pitche', 29.99, 599);
+Insert Into Jewerly Values(6,'18k Gold Danity necklace','Pitche', 119.99, 899);
+
+Insert Into Jewerly Values(7,'Diamond Sterling Promise ring','Oak', 19.99, 799);
+
+Insert Into Jewerly Values(8,'Celestial Stacking Ring
+in 14k Rose Gold','Blue Niele', 50.99, 999);
+
+Insert Into Jewerly Values(9,'Celestial Stacking Ring
+in 14k Gold ','Blue Niele', 50.99, 999);
+
+Insert Into Jewerly Values(10,'Celestial Stacking Ring
+in Sliver ','Blue Niele', 39.99, 699);
+
+Insert Into Jewerly Values(11,'Celestial Stacking Ring
+in 14k Rose Gold','Blue Niele', 69.99, 899);
+
+Insert Into Jewerly Values(12,'Celestial Stacking Ring
+in 14k yellow Gold','Blue Niele', 69.99, 899);
+
+
+Insert Into Jewerly Values(13,'Celestial Stacking Ring
+in 14k White Gold','Blue Niele', 69.99, 899);
+
+Insert Into Jewerly Values(14,'Delicate Pavé Split Bar Diamond Fashion Ring white gold','Blue Niele', 69.99, 899);
+
+
+Insert Into Jewerly Values(15,'Delicate Pavé Split Bar Diamond Fashion Ring yellow gold','Blue Niele', 69.99, 899);
+
+select * from jewerly order by price;
+select sum(quantity)from jewerly;
+select avg(price)from jewerly;
